@@ -12,8 +12,8 @@ title:            gLidar
 tagline:          'An atmospheric convection project'
 email:            duro24@gmail.com
 description:      'An atmospheric convection research project using data from sailplanes, paragliding and LIDARs.'
-baseurl:          /glidar
-url:              http://duro24.gitlab.io/
+baseurl:          /
+url:              http://glidar-project.github.io/
 
 disqus:
   shortname:      'gLidar'
@@ -34,7 +34,7 @@ paginate:         5
 version:          1.0.0
 
 github:
-  repo:           https://gitlab.com/duro24/glidar
+  repo:           https://github.com/glidar-project.github.io
 
 exclude:
   - vendor
