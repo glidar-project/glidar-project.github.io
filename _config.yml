@@ -38,3 +38,5 @@ github:
 
 exclude:
   - vendor
+
+theme: jekyll-theme-minimal
