@@ -1,6 +1,6 @@
 ---
 layout: post
-title: LIDAR Campaign May - June
+title: Testing LIDARs at GFI
 category: LIDARs
 tags: [lidar]
 ---
