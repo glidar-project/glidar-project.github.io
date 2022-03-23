@@ -1,3 +1,25 @@
+# Dev Notes
+
+Clone this repo
+```
+git clone git@github.com:glidar-project/glidar-project.github.io.git
+```
+Install docker
+
+https://docs.docker.com/get-docker/
+
+Run
+```
+docker-compose up
+```
+Et Voila, you can open the site locally at:
+
+http://localhost:4000/
+
+Report any trouble.
+
+
+
 # Hyde
 
 Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a prominent sidebar with uncomplicated content. It's based on [Poole](http://getpoole.com), the Jekyll butler.
