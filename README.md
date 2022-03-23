@@ -8,7 +8,7 @@ Install docker
 
 https://docs.docker.com/get-docker/
 
-Run
+Navigate to the root folder of the project and run
 ```
 docker-compose up
 ```
