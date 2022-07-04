@@ -6,6 +6,7 @@
 #
 # Example:
 # {% video http://site.com/video.mp4 720 480 http://site.com/poster-frame.jpg %}
+# {% video {{site.url}}/assets/img/lidar-export/lidar-gif.mp4 470 452 {{site.url}}/assets/img/lidar-export/lidar-gif.png %}
 #
 # Output:
 # <video width='720' height='480' preload='none' controls poster='http://site.com/poster-frame.jpg'>
