@@ -9,6 +9,10 @@ tags: [lidar, PG]
   #my-canvas-container {
     position:relative;
   }
+  #cesiumContainer {
+    position:relative;
+    height: 100%;
+  }
   #my-options {
     position:absolute;
     left:5%;
@@ -474,7 +478,7 @@ const viewer = new Cesium.Viewer("cesiumContainer", {
   sceneModePicker: false,
   terrainProvider: worldTerrain,
   bottomContainer: 'bottomContainer',
-  fullscreenElement: 'cesiumContainer',
+  fullscreenElement: 'my-canvas-container',
 });
 
 // TODO: Set the clock from the available data range
