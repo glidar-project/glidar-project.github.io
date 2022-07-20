@@ -41,6 +41,7 @@ tags: [lidar, PG]
 
 
 Here is an example of the overlap between paragliding and LIDAR observations.
+The checkboxes on the top allow you to hide parts of the scene. Dragging the timeline or hitting play will update the data.
 
 
 <script>
@@ -489,6 +490,7 @@ viewer.clock.startTime = start.clone();
 viewer.clock.stopTime = stop.clone();
 viewer.clock.currentTime = Cesium.JulianDate.fromIso8601("2022-06-06T10:25:00Z");
 viewer.clock.clockRange = Cesium.ClockRange.CLAMPED;
+viewer.clock.multiplier = 60;
 viewer.timeline.zoomTo(start, stop);
 
 const positionProperty = new Cesium.SampledPositionProperty();
