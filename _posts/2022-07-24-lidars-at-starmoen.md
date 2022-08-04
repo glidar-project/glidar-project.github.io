@@ -30,8 +30,8 @@ category: lidar
     <label for="wls-37">
       <input type="checkbox" id="wls-37" name="wls-37" value="yes"> WLS 37 
     </label>
-    <label for="thermal">
-      <input type="checkbox" id="thermal" name="thermal" value="yes"> Thermal 
+    <label for="st-thermal">
+      <input type="checkbox" id="st-thermal" name="st-thermal" value="yes"> Thermal 
     </label>
   </div>
 </div>  
@@ -40,8 +40,8 @@ category: lidar
 <div id='bottomContainer '></div>
 
 
-Here is an example of the overlap between paragliding and LIDAR observations.
-The checkboxes on the top allow you to hide parts of the scene. Dragging the timeline or hitting play will update the data.
+Here you can see the set-up of the LIDAR instruments at Starmoen. The is an example of the data from the glider pilots at Starmoen and the LIDAR observations.
+The checkboxes on the top allow you to hide parts of the scene. Dragging the timeline or hitting play will update the visualization.
 
 
 <script>
@@ -19009,7 +19009,6 @@ var callback = function (data, checkbox) {
   };
 };
 
-
 var f37 = callback(wls37, document.querySelector('#wls-37'));
 var f34 = callback(wls34, document.querySelector('#wls-34'));
 
@@ -19026,16 +19025,17 @@ checkboxes.forEach((cb) => {
     cb.checked = true;
 });
 
-viewer.zoomTo(Cesium.Cartesian3.fromDegrees(wls34.longitude, wls34.latitude, wls34.altitude));
-
-
-viewer.zoomTo(thermal_entities[100]);
-const cb = document.querySelector('#thermal');
+// 
+const cb = document.querySelector('#st-thermal');
 cb.onclick = function () {
   thermal_entities.forEach( e => {
     e.show = cb.checked;
   });
 };
+
+// viewer.zoomTo(Cesium.Cartesian3.fromDegrees(wls34.longitude, wls34.latitude, wls34.altitude));
+viewer.zoomTo(thermal_entities[100]);
+
 
 
 })();
