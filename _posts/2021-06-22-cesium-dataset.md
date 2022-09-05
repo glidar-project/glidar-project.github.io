@@ -21,8 +21,8 @@ The 16th FAI Paragliding World Championships took place on 7 August 2019 in Krus
 <div id='bottomContainer '></div>
 
 
-Data was collected from the official website:
-<a href='http://www.pgworlds2019.mk/'>http://www.pgworlds2019.mk/</a><br/>
+<!-- Data was collected from the official website: -->
+<!-- <a href='http://www.pgworlds2019.mk/'>http://www.pgworlds2019.mk/</a><br/> -->
 A video from the championship:
 <a href='https://www.youtube.com/watch?v=tNMie4zXiGw'>https://www.youtube.com/watch?v=tNMie4zXiGw</a>
 <!-- <a href='https://xcmag.com/news/paragliding-world-championships-2019/'>https://xcmag.com/news/paragliding-world-championships-2019/</a> -->
